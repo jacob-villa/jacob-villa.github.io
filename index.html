@@ -1,0 +1,266 @@
+<html>
+
+<head>
+     <title>Mini-Challenge #1 - My Resume</title>
+
+     <!-- You might find these useful :) -->
+    <style type="text/css">
+        .break { clear: both; }
+        dd.break { float: none; margin: 0; height: 15px; }
+
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body
+        {
+            line-height: 22px;
+            font: 17px Times;
+            background-color: #DBF9FC;
+        }
+
+        #body
+        {
+            margin: 40px auto 60px;
+            width: 805px;
+        }
+
+        #profilepic
+        {
+            height: 300px;
+            width: 300px;
+            float: right;
+            margin: -30px -30px 0 0;
+            right: 0px;
+            padding: 3 3 3 3;
+        }
+
+        h1
+        {
+            margin: 0 0 17px 0; 
+            padding: 0 0 17px 0; 
+			font-family: 'Ubuntu', sans-serif;
+            font-size: 43px; 
+            font-weight: bold; 
+            letter-spacing: -3px; 
+            border-bottom: 1px solid rgb(130, 129, 129); 
+        }
+
+        #contactdetails
+        {
+            margin: 0 0 16px 0;
+        }
+
+        a
+        {
+            color: rgb(115,113,113); 
+            text-decoration: none; 
+            border-bottom: 1px dotted #999;
+        }
+
+        a:hover, a:active 
+        {
+            border-bottom-style: solid;
+            color: blue;
+        }
+
+        #bio
+        {
+            width: 500px; 
+            float: left; 
+            font-family: Helvetica;
+            font-style: italic; 
+            color: #666;
+        }
+
+        dt
+        {
+            font-style: italic;
+            font-weight: bold; 
+            font-size: 18px; 
+            text-align: right; 
+            padding: 0 26px 0 0; 
+            width: 150px; 
+            float: left; 
+            height: 100px; 
+            border-right: 1px solid rgb(115,113,113);
+        }
+
+        dd > h2, dd > p
+        {
+            font-size: 20px; 
+            margin: 0 0 6px 0; 
+            position: relative; 
+            left: 26px;
+        }
+
+        dd
+        {
+            margin: 0 0 20px 0;
+        }
+
+        .date
+        {
+            position: absolute; 
+            bottom: 0; 
+            right: 0; 
+            font-style: italic; 
+            font: Arial; 
+            font-size: 16px; 
+            color: #998;
+            font-weight: normal;
+        }
+
+        ul
+        {
+            margin: 0 0 32px 17px; 
+            position: relative;
+            left: 43px;
+        }
+
+        #education
+        {
+            height: 140px;
+        }
+
+        #skills
+        {
+            height: 120px;
+        }
+
+        #experience
+        {
+            height: 290px;
+        }
+
+        #hobbies
+        {
+            height: 77px;
+        }
+
+        #references
+        {
+            height: 27px;
+        }
+
+        
+
+    </style>
+
+     <!-- You may use inline or external CSS, or whichever method you are comfortable with-->
+</head>
+
+<body>
+
+    <div id="body">
+        <!--- Use a different photo for this one -->
+        <img src="VILLA.jpg" alt="Photo of Jacob" id="profilepic"/>
+    
+        <div>
+            <!--- Use your actual name -->
+            <h1>Jacob Villa</h1>
+        
+            <p id="contactdetails">
+                <!--- Use your actual dlsu email -->
+                Email: <a href="mailto:jacob_villa@dlsu.edu.ph">jacob_villa@dlsu.edu.ph</a><br>
+                Contact no.: (+63) 947-381-6989
+            </p>
+        </div>
+        
+        <div>
+            <p id="bio">
+                <!--- Write a summary about yourself -->
+                A computer science sophomore aiming to design and improve public transportation systems while backed by a passion for choral singing
+            </p>
+        </div>
+        
+        <div class="break"></div>
+        
+        <dl>
+            <!--- Everything here should pertain about yourself-->
+            <dd class="break"></dd>
+            
+            <!-- You are free to add more entries here-->
+            <dt id="education">Education</dt>
+            <dd>
+                <h2>De La Salle University Manila <span class="date">2019 - PRESENT</span></h2>
+                <p>
+                    <strong>Major:</strong> Computer Science<br/>
+                    <strong>Minor:</strong> Software Technology
+                </p>
+            </dd>
+            
+            <dd>
+                <h2>Philippine Science High School - Main Campus <span class="date">2013 - 2019</span></h2> 
+                <p>Graduated with High Honors</p>
+            </dd>      
+
+            <dd class="break"></dd>
+
+            <!-- You are free to add more entries here-->
+            <dt id="skills">Skills</dt>
+            <dd>
+                <h2>Programming Languages</h2>
+                <p>C, C++, Java, Python</p>
+            </dd>
+
+            <dd>
+                <h2>Soft Skills</h2>
+                <p>Openly communicates with team members, respects others' time, persevering</p>
+            </dd>
+
+            <dd class="break"></dd>
+            
+            <!-- Feel free to add more entries here. You can put org work, high school work. If no experience, just make up some :)-->
+            <dt id="experience">Experience</dt>
+            <dd>
+                <h2>De La Salle University Chorale, Member <span class="date">2019 - PRESENT</span> </h2>
+                <ul>
+                    <li>Participated in performances pre-pandemic</li>
+                    <li>Participates in virtual choir performances during the pandemic</li>
+                </ul>
+                
+                <h2>SPRINT DLSU, AVP for Human Resources Development <span class="date">2021 - PRESENT</span></h2>
+                <ul>
+                    <li>Assists in building camaraderie among the members of the organization</li>
+                    <li>Organizes and plans events such as general assemblies</li>
+                </ul> 
+
+                <h2>LSCS DLSU, AVP for Academics <span class="date">2021 - PRESENT</span></h2>
+                <ul>
+                    <li>Assists in handling academic concerns of the organization's members</li>
+                    <li>Organizes and plans events such as academic webinars</li>
+                </ul> 
+            </dd>
+            <dd class="break"></dd>
+
+            <!-- Add Hobbies and References afterwards :)-->
+            <dd>
+                <dt id="hobbies">Hobbies</dt>
+                    <ul>
+                        <li>Choral singing</li>
+                        <li>Watching figure skating</li>
+                        <li>Learning and practicing Nihongo</li>
+                        <li>Eating and reviewing ramen</li>
+                    </ul>
+            </dd>
+
+            
+
+            <dd>
+                <dt id="references">References</dt>
+                <dd><p id="test">Available upon request.</p></dd>
+            </dd>
+
+            <dd class="break"></dd>
+        </dl>
+        
+        <div class="break"></div>
+    
+    </div>
+
+</body>
+
+</html>
